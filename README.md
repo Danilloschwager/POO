@@ -1,79 +1,64 @@
 # 🧠 Programação Orientada a Objetos (POO) — Herança em Java
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![POO](https://img.shields.io/badge/POO-Heran%C3%A7a-blue?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![POO](https://img.shields.io/badge/Paradigma-POO-blue?style=for-the-badge)
+![Herança](https://img.shields.io/badge/Pilar-Heran%C3%A7a-green?style=for-the-badge)
 
-Este repositório contém um projeto desenvolvido em **Java**, com o objetivo de demonstrar o uso do pilar **Herança** da **Programação Orientada a Objetos (POO)**.
+Este repositório contém um projeto desenvolvido em **Java** com foco no pilar **Herança**, um dos conceitos fundamentais da **Programação Orientada a Objetos (POO)**.
 
----
-
-## 🎯 Objetivo do Projeto
-
-O projeto foi criado com fins **didáticos**, visando:
-
-- Compreender o funcionamento da **herança em Java**
-- Demonstrar a reutilização de código
-- Criar hierarquias entre classes
-- Aplicar conceitos fundamentais da POO na prática
+O projeto tem caráter **educacional**, sendo ideal para estudantes que estão aprendendo POO e desejam entender como a herança funciona na prática.
 
 ---
 
-## 🧩 Conceitos Aplicados
+## 📚 O que é Programação Orientada a Objetos?
 
-### 📌 Programação Orientada a Objetos (POO)
+A **Programação Orientada a Objetos (POO)** é um paradigma de programação que organiza o código em **classes** e **objetos**, aproximando o software de situações do mundo real.
 
-A POO é um paradigma de programação baseado na criação de **objetos**, que possuem:
-
+Na POO, cada objeto possui:
 - **Atributos** → características
 - **Métodos** → comportamentos
 
-Os principais pilares da POO são:
-
+Os quatro pilares da POO são:
 - Encapsulamento
-- Herança
+- **Herança**
 - Polimorfismo
 - Abstração
 
+Este projeto foca especificamente no pilar **Herança**.
+
 ---
 
-### 🧬 Herança
+## 🧬 O que é Herança?
 
-A **herança** permite que uma classe herde atributos e métodos de outra classe, promovendo:
+A **herança** permite que uma classe reutilize atributos e métodos de outra classe.
 
-✔ Reutilização de código  
-✔ Organização  
-✔ Manutenção mais simples  
+📌 Em Java:
+- A classe que **herda** é chamada de **classe filha (subclasse)**
+- A classe que é **herdada** é chamada de **classe pai (superclasse)**
 
+Isso evita duplicação de código e facilita a manutenção do sistema.
 
-🛠 Tecnologias Utilizadas
+### 🔎 Exemplo conceitual
 
-☕ Java
+Imagine:
+- Uma classe `Veiculo` com atributos comuns (velocidade, cor)
+- Uma classe `Carro` que herda de `Veiculo`
 
-💻 Programação Orientada a Objetos
+O `Carro` automaticamente terá tudo que o `Veiculo` possui, além de suas próprias características.
 
-🧬 Herança
+---
 
-🚧 Próximas Melhorias
+## 💡 Como a Herança é aplicada neste projeto?
 
-Implementar Polimorfismo
+Neste projeto:
 
-Criar classes abstratas
+- Existe uma **classe base (pai)** que contém atributos e métodos comuns
+- Existe uma **classe derivada (filha)** que herda esses elementos
+- A herança é feita utilizando a palavra-chave `extends`
 
-Aplicar Encapsulamento
-
-Adicionar mais exemplos práticos
-
-👨‍💻 Autor
-
-Desenvolvido por Danillo Schwager
-📌 Estudante de programação | Java | POO
+Exemplo de sintaxe utilizada:
 
 ```java
 public class ClasseFilha extends ClassePai {
-    // A ClasseFilha herda métodos e atributos da ClassePai
+    // A ClasseFilha herda atributos e métodos da ClassePai
 }
-📁 Estrutura do Projeto
-📦 POO
- ┣ 📄 .gitignore
- ┗ 📄 C4.java
