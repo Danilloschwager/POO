@@ -56,9 +56,3 @@ Neste projeto:
 - Existe uma **classe derivada (filha)** que herda esses elementos
 - A herança é feita utilizando a palavra-chave `extends`
 
-Exemplo de sintaxe utilizada:
-
-```java
-public class ClasseFilha extends ClassePai {
-    // A ClasseFilha herda atributos e métodos da ClassePai
-}
